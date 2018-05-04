@@ -1,0 +1,28 @@
+{
+    "name": "gitbook-plugin-javadeps",
+    "description": "GitBook Plugin for Java/Scala library dependencies for different build systems ",
+    "main": "index.js",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/Marc--Olivier/gitbook-plugin-javadeps",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Marc--Olivier/gitbook-plugin-javadeps"
+    },
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/Marc--Olivier/gitbook-plugin-javadeps/issues"
+    },
+    "devDependencies": {
+        "ava": "^0.19.1",
+        "nyc": "^10.3.0",
+        "xo": "^0.18.1"
+    },
+    "scripts": {
+        "lint": "xo",
+        "format": "xo --fix",
+        "test": "xo && nyc ava --verbose"
+    }
+}
